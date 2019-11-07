@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9cf481-7bdd-43f4-97e0-5d3e337f7490" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problems/1-100/1-10/Problem10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/1-100/1-10/Problem8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/1-100/1-10/Problem9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/1-100/11-20/Problem11.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelperMethods.py" beforeDir="false" afterPath="$PROJECT_DIR$/HelperMethods.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Problems/1-100/1-10/Problem10.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="170">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Problems/1-100/11-20/Problem11.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -74,6 +80,7 @@
         <option value="$PROJECT_DIR$/HelperMethods.py" />
         <option value="$PROJECT_DIR$/Problems/1-100/1-10/Problem10.py" />
         <option value="$PROJECT_DIR$/Problems/1-100/1-10/Problem11.py" />
+        <option value="$PROJECT_DIR$/Problems/1-100/11-20/Problem11.py" />
       </list>
     </option>
   </component>
@@ -112,7 +119,7 @@
               <item name="ProjectEuler" type="462c0819:PsiDirectoryNode" />
               <item name="Problems" type="462c0819:PsiDirectoryNode" />
               <item name="1-100" type="462c0819:PsiDirectoryNode" />
-              <item name="1-10" type="462c0819:PsiDirectoryNode" />
+              <item name="11-20" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,12 +225,12 @@
       <workItem from="1563832777526" duration="159000" />
       <workItem from="1563907966096" duration="1829000" />
       <workItem from="1563996597739" duration="50000" />
-      <workItem from="1573146541896" duration="16904000" />
+      <workItem from="1573146541896" duration="17247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19234000" />
+    <option name="totallyTimeSpent" value="19577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -272,7 +279,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ProjectEuler$Main.coverage" NAME="Main Coverage Results" MODIFIED="1573163593259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProjectEuler$Main.coverage" NAME="Main Coverage Results" MODIFIED="1573165497375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProjectEuler$Problem1.coverage" NAME="Problem1 Coverage Results" MODIFIED="1573151382397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Problems/1-100/1-10" />
   </component>
   <component name="editorHistoryManager">
@@ -392,8 +399,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Problems/1-100/1-10/Problem10.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Problems/1-100/11-20/Problem11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
