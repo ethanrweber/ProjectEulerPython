@@ -1,6 +1,6 @@
-import datetime
+from datetime import datetime
 import os
-import sys
+from time import sleep
 import importlib.util
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -40,9 +40,10 @@ if __name__ == "__main__":
         if method is None:
             print("\n\n")
             continue
-        start = datetime.datetime.now()
+        start = datetime.now().microsecond
         method()
-        end = datetime.datetime.now()
-        delta = end - start
-        print(delta)
+        end = datetime.now().microsecond
+        delta = (end - start) / 1000.0
+        sleep(0.05)  # pause 50ms to prevent incorrect time calculation by running problems in quick succession
+        print("time: " + str(delta) + " ms")
         print("\n\nWould you like to run another problem?")
