@@ -12,3 +12,11 @@ def is_prime(num):
             return False
 
     return True
+
+
+def is_palindrome(string):
+    leng = len(string)
+    for i in range(leng):
+        if string[i] != string[leng - i - 1]:
+            return False
+    return True

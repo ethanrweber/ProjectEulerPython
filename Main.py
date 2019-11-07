@@ -1,6 +1,5 @@
 from datetime import datetime
 import os
-from time import sleep
 import importlib.util
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -12,15 +11,17 @@ def string_to_module(module_name):
         if module_name in filenames:
             try:
                 path = ROOT_DIR + "\\" + dirpath + "\\" + module_name
-
                 spec = importlib.util.spec_from_file_location("", path)
                 foo = importlib.util.module_from_spec(spec)
                 spec.loader.exec_module(foo)
                 module = foo
             except ModuleNotFoundError:
-                print("file " + module_name + " is unfinished or has not been attempted (yet!)")
+                print("file " + module_name + " is unfinished")
                 return None
 
+    if module is None:
+        print("problem " + module_name.replace('problem', '') + " has not yet been attempted")
+        return None
     result = getattr(module, "method")
     return result
 
@@ -40,10 +41,11 @@ if __name__ == "__main__":
         if method is None:
             print("\n\n")
             continue
-        start = datetime.now().microsecond
+        start = datetime.now()
         method()
-        end = datetime.now().microsecond
-        delta = (end - start) / 1000.0
-        sleep(0.05)  # pause 50ms to prevent incorrect time calculation by running problems in quick succession
-        print("time: " + str(delta) + " ms")
+        end = datetime.now()
+        delta = (end - start)
+        # weird error where time is negative?
+
+        print("time: " + str(delta) + " seconds")
         print("\n\nWould you like to run another problem?")
