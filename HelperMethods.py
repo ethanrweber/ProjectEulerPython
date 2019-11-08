@@ -22,6 +22,10 @@ def is_palindrome(string):
     return True
 
 
+def e_sieve(lower_limit, upper_limit):
+    return esieve(upper_limit, lower_limit)
+
+
 def esieve(upper_limit, lower_limit=2):
     sieve_bound = int((upper_limit - 1) / 2)
     upper_sqrt = int((math.sqrt(upper_limit) - 1) / 2)
