@@ -45,3 +45,20 @@ def esieve(upper_limit, lower_limit=2):
 
     return numbers
 
+
+def get_divisors(n):
+    if n < 1:
+        return None
+    divisors = [1]
+    for i in range(2, math.ceil(math.sqrt(n)) + 1):
+        if n % i == 0:
+            divisors.append(i)
+            divisors.append(n / i)
+    return divisors
+
+
+def sum_divisors(n):
+    sum = 0
+    for d in get_divisors(n):
+        sum += d
+    return sum
