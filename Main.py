@@ -45,7 +45,6 @@ if __name__ == "__main__":
         method()
         end = datetime.now()
         delta = (end - start)
-        # weird error where time is negative?
 
         print("time: " + str(delta) + " seconds")
         print("\n\nWould you like to run another problem?")
