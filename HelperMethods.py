@@ -68,6 +68,13 @@ def esieve(upper_limit, lower_limit=2):
     return numbers
 
 
+def factorial(num):
+    sum = 1
+    for i in range(1, num+1):
+        sum *= i
+    return sum
+
+
 def get_divisors(n):
     if n < 1:
         return None
