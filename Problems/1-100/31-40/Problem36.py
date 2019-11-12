@@ -13,3 +13,4 @@ def method():
             if is_palindrome(bin(i)[2:]):
                 sum += i
     print(sum)
+    return

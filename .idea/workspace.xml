@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a9cf481-7bdd-43f4-97e0-5d3e337f7490" name="Default Changelist" comment="finish 33">
-      <change afterPath="$PROJECT_DIR$/Problems/1-100/31-40/Problem34.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/1-100/31-40/Problem35.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problems/1-100/31-40/Problem36.py" afterDir="false" />
+    <list default="true" id="7a9cf481-7bdd-43f4-97e0-5d3e337f7490" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Problems/1-100/31-40/Problem37.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/1-100/31-40/Problem38.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/1-100/31-40/Problem39.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problems/1-100/31-40/Problem40.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelperMethods.py" beforeDir="false" afterPath="$PROJECT_DIR$/HelperMethods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/1-100/31-40/Problem36.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/31-40/Problem36.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573579898275</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="34-36">
+      <created>1573586508758</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573586508758</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -167,7 +175,8 @@
       <path value="$PROJECT_DIR$/ProjectEulerPython" />
     </ignored-roots>
     <MESSAGE value="finish 33" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish 33" />
+    <MESSAGE value="34-36" />
+    <option name="LAST_COMMIT_MESSAGE" value="34-36" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
