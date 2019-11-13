@@ -24,20 +24,18 @@ def is_palindrome(string):
 
 def is_pandigital(num):
     digits, count = 0, 0
-
     while num > 0:
         temp = digits
         shift = int(num % 10 - 1)
-        if shift < 0:
-            break
-        digits = digits | 1 << shift
+        digits |= 1 << shift if shift >= 0 \
+            else 1 >> (shift * -1)
         if temp == digits:
             return False
 
         count += 1
-        num /= 10
+        num = int(num / 10)
 
-    return digits == (1 << count) - 1
+    return digits == int(1 << count) - 1
 
 
 def e_sieve(lower_limit, upper_limit):
