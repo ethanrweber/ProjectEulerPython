@@ -14,9 +14,9 @@ def method():
 
     am_sum = 0
     for i in range(2, lim):  # sum of divisors of 1 = 0 or 1, either way it won't match anything
-        sum = sum_divisors(i)
+        sum_of_divisors = sum_divisors(i)
         for j in range(i+2, lim, 2):
-            if sum == j and sum_divisors(j) == i:
+            if sum_of_divisors == j and sum_divisors(j) == i:
                 am_sum += i + j
     print(am_sum)
     return

@@ -1,5 +1,4 @@
 from Constants import FILE_PREFIX
-import string
 
 
 def method():
@@ -15,12 +14,7 @@ def method():
         name_sum = 0
         for i in range(len(names)):
             name = names[i].replace('"', '').lower()
-            name_sum += get_str_val(name) * (i+1)
+            name_sum += sum(ord(c) - 96 for c in name) * (i+1)
 
         print(name_sum)
-        return
-
-
-def get_str_val(s):
-    a = ord('a')
-    return sum(ord(c) - a + 1 for c in s)
+    return

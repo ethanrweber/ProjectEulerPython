@@ -5,10 +5,9 @@ def method():
     print("find the first 10 digits of the sum of the hundred 50-digit numbers in the given file")
 
     filename = FILE_PREFIX + "13numbers.txt"
-    sum = 0
+    sum_lines = 0
     with open(filename, 'r') as f:
-        for line in f.readlines():
-            sum += int(line)
+        sum_lines = sum(int(line) for line in f.readlines())
 
-    print(str(sum)[0:10])
+    print(str(sum_lines)[0:10])
     return

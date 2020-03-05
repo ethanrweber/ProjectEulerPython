@@ -10,9 +10,7 @@ def method():
     abs_lim = 1000
     b_pos = e_sieve(-abs_lim, abs_lim)
 
-    max_prime = 0
-    final_a = 0
-    final_b = 0
+    max_prime = final_a = final_b = 0
 
     for a in range(-abs_lim, abs_lim):
         for b in b_pos:
@@ -24,7 +22,6 @@ def method():
 
     print(f"n^2 + {final_a}*n + {final_b} produces most primes: {max_prime}")
     print(f"product of coefficients a ({final_a}) and b ({final_b}) is {final_a * final_b}")
-
     return
 
 

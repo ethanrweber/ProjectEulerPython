@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9cf481-7bdd-43f4-97e0-5d3e337f7490" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Problems/101-200/131-140/Problem135.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ProjectEuler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjectEuler.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/1-100/11-20/Problem11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/11-20/Problem11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/1-100/11-20/Problem12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/11-20/Problem12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/1-100/11-20/Problem13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/11-20/Problem13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/1-100/21-30/Problem21.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/21-30/Problem21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/1-100/21-30/Problem22.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/21-30/Problem22.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/1-100/21-30/Problem23.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/21-30/Problem23.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/1-100/21-30/Problem25.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/21-30/Problem25.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/1-100/21-30/Problem27.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/21-30/Problem27.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/1-100/21-30/Problem28.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/21-30/Problem28.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/1-100/21-30/Problem30.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/21-30/Problem30.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problems/101-200/131-140/Problem135.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/101-200/131-140/Problem135.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +50,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -62,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Main">
+  <component name="RunManager">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProjectEuler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,32 +93,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Problem1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ProjectEuler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problems/1-100/1-10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problems/1-100/1-10/Problem1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
-        <item itemvalue="Python.Problem1" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583439676823</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Solve 135">
+      <created>1583440083856</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583440083856</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -192,7 +184,8 @@
     <MESSAGE value="34-36" />
     <MESSAGE value="37-40, update 36" />
     <MESSAGE value="refactor code" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor code" />
+    <MESSAGE value="Solve 135" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve 135" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

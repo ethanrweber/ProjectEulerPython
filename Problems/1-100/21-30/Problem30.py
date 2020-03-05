@@ -17,8 +17,10 @@ def method():
     for n in range(2, 6 * (9 ** power)):  # loose approximation of upper bound
         ns = str(n)
         l = len(ns)
+
         i_digits = [0] * l
         powers_sum = 0
+
         for i in range(l):
             i_digits[i] = int(ns[i])
             powers_sum += i_digits[i] ** power

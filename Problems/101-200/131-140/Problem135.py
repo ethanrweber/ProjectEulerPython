@@ -5,9 +5,7 @@ def method():
 
     print()
     print(arithmetic_progression_sums(1000000, 10))
-
     return
-
 
 
 def arithmetic_progression_sums(n: int, w: int) -> int:

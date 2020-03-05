@@ -13,19 +13,15 @@ def method():
     f.close()
 
     # initialize matrix
-    m = [None] * n
-    for i in range(n):
-        m[i] = [None] * n
+    m = [[None] * n for i in range(n)]
 
-    i = 0
-    for x in data:
+    for i, x in enumerate(data):
         m[i] = str.split(x)
         for j in range(n):
             m[i][j] = int(m[i][j])
-        i += 1
 
     # iterate m
-    max = 0
+    max_val = 0
     for i in range(n):
         for j in range(n):
 
@@ -33,33 +29,33 @@ def method():
             if i+3 < n:
                 if j+3 < n:
                     diag = m[i][j] * m[i + 1][j + 1] * m[i + 2][j + 2] * m[i + 3][j + 3]
-                    if diag > max:
-                        max = diag
+                    if diag > max_val:
+                        max_val = diag
                 if j - 3 >= 0:
                     diag = m[i][j] * m[i+1][j-1] * m[i+2][j-2] * m[i+3][j-3]
-                    if diag > max:
-                        max = diag
+                    if diag > max_val:
+                        max_val = diag
 
             # ur/ul diag
             if i-3 >= 0:
                 if j+3 < n:
                     diag = m[i][j] * m[i-1][j+1] * m[i-2][j+2] * m[i-3][j+3]
-                    if diag > max:
-                        max = diag
+                    if diag > max_val:
+                        max_val = diag
                 if j-3 >= 0:
                     diag = m[i][j] * m[i-1][j-1] * m[i-2][j-2] * m[i-3][j-3]
 
             # left/right
             if j+3 < n:
                 right = m[i][j] * m[i][j+1] * m[i][j+2] * m[i][j+3]
-                if right > max:
-                    max = right
+                if right > max_val:
+                    max_val = right
 
             # up/down
             if i+3 < n:
                 down = m[i][j] * m[i+1][j] * m[i+2][j] * m[i+3][j]
-                if down > max:
-                    max = down
+                if down > max_val:
+                    max_val = down
 
-    print(max)
+    print(max_val)
     return

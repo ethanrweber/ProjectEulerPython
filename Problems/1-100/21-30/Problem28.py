@@ -7,9 +7,12 @@ def method():
     num = 1
     dist = 2
     for side in range(3, n+1, 2):  # side length of each outer spiral
-        for i in range(4):
-            num += dist
-            sum += num
+        # below: num increases by i, sum increases by the i'th triangular number
+        # for i in range(4):
+        #     num += dist
+        #     sum += num
+
+        num, sum = num + 4 * dist, sum + 4 * num + 10 * dist
         dist += 2
 
     print(sum)
