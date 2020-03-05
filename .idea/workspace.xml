@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a9cf481-7bdd-43f4-97e0-5d3e337f7490" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Problems/101-200/131-140/Problem135.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProjectEuler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjectEuler.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/1-100/1-10/Problem10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/1-10/Problem10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/1-100/1-10/Problem5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/1-10/Problem5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/1-100/1-10/Problem8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/1-10/Problem8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/1-100/11-20/Problem13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/11-20/Problem13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/1-100/11-20/Problem14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/11-20/Problem14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/1-100/11-20/Problem16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/11-20/Problem16.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/1-100/11-20/Problem18.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/11-20/Problem18.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/1-100/11-20/Problem20.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/11-20/Problem20.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/1-100/21-30/Problem22.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/21-30/Problem22.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/1-100/21-30/Problem25.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/21-30/Problem25.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/1-100/21-30/Problem27.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/21-30/Problem27.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/1-100/21-30/Problem29.py" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/1-100/21-30/Problem29.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573589578571</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor code">
+      <created>1583439676823</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583439676823</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -193,7 +191,8 @@
     <MESSAGE value="finish 33" />
     <MESSAGE value="34-36" />
     <MESSAGE value="37-40, update 36" />
-    <option name="LAST_COMMIT_MESSAGE" value="37-40, update 36" />
+    <MESSAGE value="refactor code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
