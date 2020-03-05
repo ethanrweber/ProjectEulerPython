@@ -4,9 +4,6 @@ def method():
 
     n = 100
 
-    results = set()
-    for a in range(2, n+1):
-        for b in range(2, n+1):
-            results.add(a ** b)
+    results = set(a ** b for b in range(2, n+1) for a in range(2, n+1))
     print(f"{len(results)} distinct terms")
     return

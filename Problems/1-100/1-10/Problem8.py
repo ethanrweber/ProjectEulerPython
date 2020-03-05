@@ -12,15 +12,17 @@ def method():
              "8123098787992724428490918884580156166097919133875499200524063689912560717606058861164671094050775410022" \
              "5698315520005593572972571636269561882670428252483600823257530420752963450"
 
+    size = 13
+
     total_product = 0
-    thirteen_digits = [0] * 13
+    thirteen_digits = [0] * size
 
     # iterate through each char/digit in the string
-    for i in range(len(digits) - len(thirteen_digits)):
+    for i in range(len(digits) - size):
 
         # set each of the thirteen digits based on current index i and multiply them
         prod = 1
-        for j in range(len(thirteen_digits)):
+        for j in range(size):
             thirteen_digits[j] = int(digits[i+j])
             prod *= thirteen_digits[j]
 

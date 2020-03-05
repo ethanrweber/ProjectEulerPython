@@ -10,16 +10,14 @@ def method():
             max = i
             max_chain = chain
 
-    print(str(max) + "produces the longest chain: " + str(max_chain))
+    print(str(max) + " produces the longest chain: " + str(max_chain))
     return
 
 
+# replacing /= with //= nearly cut the time in half lol
 def collatz(n):
     chain = 0
     while n > 1:
-        if n % 2 == 0:
-            n /= 2
-        else:
-            n = 3 * n + 1
+        n = n // 2 if n % 2 == 0 else 3 * n + 1
         chain += 1
     return chain

@@ -1,12 +1,10 @@
 def method():
     print("what is the smallest positive number evenly divisible by all numbers 1-20?")
-    go = True
     result = 20
-    while go:
+    while True:
         if divisible_by_all(result):
-            go = False
-        else:
-            result += 20
+            break
+        result += 20
     print(result)
     return
 
