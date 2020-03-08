@@ -16,8 +16,7 @@ def method():
             if p * (p - 2 * a) % (2 * (p - a)) == 0:
                 num_solutions += 1
         if num_solutions > result_solutions:
-            result = p
-            result_solutions = num_solutions
+            result, result_solutions = p, num_solutions
 
     print(f"result: {result}")
     print(f"number of solutions: {result_solutions}")

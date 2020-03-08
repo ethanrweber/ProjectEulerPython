@@ -17,14 +17,14 @@ def method():
     bf_sln = brute_force(target)
     e = datetime.now()
     print("brute force solution: " + str(bf_sln))
-    print("time: " + str(e-s) + " seconds")
+    print("BF time: " + str(e-s) + " seconds")
 
     # method 2: dynamic programming
     s = datetime.now()
     dp_sln = dp(target)
     e = datetime.now()
     print("dynamic progamming solution: " + str(dp_sln))
-    print("time: " + str(e-s) + " seconds")
+    print("DP time: " + str(e-s) + " seconds")
     return
 
 
@@ -42,11 +42,12 @@ def brute_force(target):
 
 
 def dp(target):
+    target += 1
     coin_sizes = [1, 2, 5, 10, 20, 50, 100, 200]
-    ways = [0] * (target + 1)
+    ways = [0] * target
     ways[0] = 1
 
     for i in range(len(coin_sizes)):
-        for j in range(coin_sizes[i], target+1):
+        for j in range(coin_sizes[i], target):
             ways[j] += ways[j - coin_sizes[i]]
     return ways[-1]

@@ -8,11 +8,7 @@ def method():
     # ex: 197 - 197, 971, 719 all prime
 
     lim = 1_000_000
-    primes = e_sieve(2, lim)
-    circular_primes = []
-    for p in primes:
-        if is_circular_prime(str(p), str(p)):
-            circular_primes.append(p)
+    circular_primes = [prime for prime in e_sieve(2, lim) if is_circular_prime(str(prime), str(prime))]
     print(f"generate primes first: {len(circular_primes)} below {lim}")
     return
 

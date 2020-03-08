@@ -30,17 +30,14 @@ def method():
         elif i < 10000:
             m = 2
 
-        concat = str(i)
-        for n in range(2, m+1):
-            concat += str(i * n)
+        concat = str(i) + ''.join(i * n for n in range(2, m + 1))
 
         num = int(concat)
         if num < 123456789 or num > 987654321:
             continue
 
         if is_pandigital(num) and num > max:
-            max = num
-            max_i = i
+            max, max_i = num, i
 
     print(f" max num with a pandigital concatenated product is {max_i}")
     print(f"it's product is {max}")

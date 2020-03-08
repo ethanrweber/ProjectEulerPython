@@ -5,9 +5,7 @@ def method():
 
     lim = 1_000_000
 
-    string = ""
-    for i in range(1, lim + 1):
-        string += str(i)
+    string = ''.join(str(i) for i in range(1, lim + 1))
 
     result = 1
     i = 1

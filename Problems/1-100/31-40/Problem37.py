@@ -11,13 +11,7 @@ def method():
     lim = 1_000_000
 
     # ignore single-digit primes (2, 3, 5, 7)
-    primes = e_sieve(11, lim)
-    trunc_prime_sum = 0
-
-    for p in primes:
-        if is_truncatable_prime(p):
-            trunc_prime_sum += p
-
+    trunc_prime_sum = sum(prime for prime in e_sieve(11, lim) if is_truncatable_prime(prime))
     print(f"sum: {trunc_prime_sum}")
     return
 
